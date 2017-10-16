@@ -11,40 +11,76 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/brickstone.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
+  	<!-- Menu -->
 		<nav>
 			<ul class="my-menu">
-				<li>Home</li>
-				<li>Leistungen</li>
-				<li>Photos</li>
-				<li>Angebote</li>
-				<li>Kontakt</li>
+				<li><img src="logo.svg" alt="logo" class="home-logo"></li>
+				<li class="menu">Leistungen</li>
+				<li class="menu">Photos</li>
+				<li class="menu">Angebote</li>
+				<li class="menu">Kontakt</li>
 			</ul>
 		</nav>
+	<!-- Menu END -->
+
+	<!-- Video -->
 	<div class="container-fluid video" autoplay>
 		<video src="./AFS_background.mp4"></video>
 	</div>
+	<!-- Video END -->
+
 	
-	<div class="container-fluid">
+	<!-- ICONS -->
+	<div class="container-fluid" style="padding: 30px 0">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">a</div>
-				<div class="col-md-2">b</div>
-				<div class="col-md-2">c</div>
-				<div class="col-md-2">d</div>
-				<div class="col-md-2">e</div>
-				<div class="col-md-2">f</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-2"><img src="./icons/icon1.svg" alt="" class="my-icon"></div>
+				<div class="col-md-2"><img src="./icons/icon2.svg" alt="" class="my-icon"></div>
+				<div class="col-md-2"><img src="./icons/icon3.svg" alt="" class="my-icon"></div>
+				<div class="col-md-2"><img src="./icons/icon4.svg" alt="" class="my-icon"></div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<p class="text-center">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, in ipsa excepturi consectetur at, tempora impedit necessitatibus quod libero enim, ipsam cum. Ducimus nemo enim, quisquam labore necessitatibus eaque quos. Lorem ipsum dolor sit amet, consectetur. Aspernatur, est, molestias illo quas facilis magni dolorum deleniti atque! Seditaque, perspiciatis.
+				</p>
 			</div>
 		</div>
 	</div>
+	<!-- ICONS END -->
+	
+	<!-- Form AMAZING :) -->
+		<div class="container-fluid">
+			<div class="container">
+				<div class="form-wrapper">
+					<form action="post.php" method="post">
+						<span class="contact-us">Kontaktieren Sie uns!</span>
+						
+						<div class="form-group form-email">
+							<input type="text" name="email" placeholder="Email...">
+							<div class="next"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+						</div>
 
+						<div class="form-group form-name">
+							<input type="text" name="name" placeholder="Name...">
+							<div class="next"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	<!-- Form END -->
 
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/app.js"></script>
 
   </body>
 
