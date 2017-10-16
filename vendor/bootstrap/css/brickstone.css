@@ -1,0 +1,42 @@
+body{
+	background: #222;
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+nav{
+}
+nav li{
+	list-style: none;
+	color: white;
+	border: 2px solid transparent;
+	margin: 10px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	transition: all .3s ease;
+	font-size: 1.1rem;
+}
+
+nav li:hover{
+	border: 2px solid white;
+}
+
+ul.my-menu{
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video{
+	margin: 0 !important;
+	padding: 0 !important;
+}
