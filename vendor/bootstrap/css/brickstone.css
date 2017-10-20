@@ -11,6 +11,7 @@ p{
 }
 
 nav{
+	z-index: 20;
 }
 nav li{
 	list-style: none;
@@ -153,12 +154,38 @@ button.contact{
 	margin-bottom: 100px;
 }
 
+.gallery{
+	display: table;
+	margin: auto;
+}
+
+.fourpic{
+	float: left;
+	margin: .5vw;
+}
+.twopic{
+	float: left;
+	margin: .5vw;
+}
+
 .gallery-item{
 	background: red;
 	width: 15vw;
 	height: 15vw;
-	float:left;
+	float: right;
 	margin: 1vw;
+}
+
+.gallery-item.height{
+	height: 32vw;
+}
+
+.gallery-item.long{
+	width: 32vw;
+}
+
+.lastline{
+ margin-left: .5vw;
 }
 
 .overlap{
@@ -166,7 +193,6 @@ button.contact{
 	height: 50px;
 	margin-top: -50px;
 	position: absolute;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+12,222222+84&0+12,1+84 */
 	background: -moz-linear-gradient(top, rgba(34,34,34,0) 12%, rgba(34,34,34,1) 84%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(34,34,34,0) 12%,rgba(34,34,34,1) 84%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(34,34,34,0) 12%,rgba(34,34,34,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
