@@ -10,9 +10,6 @@ p{
 	color: #8e8e8e;
 }
 
-nav{
-	z-index: 20;
-}
 nav li{
 	list-style: none;
 	color: white;
@@ -43,6 +40,7 @@ ul.my-menu{
 	width: 100%;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 20;
 }
 
 .video{
