@@ -10,6 +10,10 @@ p{
 	color: #8e8e8e;
 }
 
+.angebot p{
+	color: white;
+}
+
 nav li{
 	list-style: none;
 	color: white;
@@ -38,7 +42,8 @@ ul.my-menu{
 	margin: auto;
 	text-align: center;
 	width: 100%;
-	position: absolute;
+	position: fixed;
+	top: 0; /* required */
 	background-color: rgba(0, 0, 0, 0.5);
 	z-index: 20;
 }
@@ -58,13 +63,17 @@ ul.my-menu{
 .form-wrapper{
 	width: 100%;
 	max-width: 400px;
+	height: 110px;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
+	margin-bottom: 30px;
 }
 
 input{
 	width: 80%;
 	height: 40px;
+	margin-bottom: 5px;
 	border-bottom-left-radius: 10px;
 	border: none;
 	font-size: 1.5rem;
@@ -101,16 +110,6 @@ input{
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 10px 0;
-}
-
-.form-name{
-	position: relative;
-	top: -40px;
-}
-
-.form-email{
-	position: relative;
-	top: 5px;
 }
 
 video{
@@ -167,11 +166,19 @@ button.contact{
 }
 
 .gallery-item{
-	background: red;
 	width: 15vw;
 	height: 15vw;
 	float: right;
 	margin: 1vw;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: .5;
+	transition: opacity .3s ease;
+}
+
+.gallery-item:hover{
+	opacity: 1;
 }
 
 .gallery-item.height{
@@ -197,14 +204,72 @@ button.contact{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222', endColorstr='#222222',GradientType=0 ); /* IE6-9 */
 }
 
+.angebot{
+	width: 100%;
+	box-shadow: 0px 0px 10px black;
+	margin: 30px;
+	min-height: 100px;
+}
 
+.angebot-wrapper{
+	max-width: 700px;
+	margin: auto;
+}
 
+.angebot-img{
+	height: 320px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
 
+.angebot-text{
+	padding: 15px 20px 5px 5px;
+}
 
+span.angebot-subtext{
+	color:#8E8E8E;
+}
 
+span.preis{
+	font-size: 1.5rem;
+	text-align: right;
+	width: 100%;
+	display: block;
+}
 
+.gallery-a {
+	opacity: 1;
+}
 
+.gallery-b {
+	background-image: url(./../../../images/photo-06.png);
+}
 
+.gallery-c {
+	background-image: url(../../../images/photo-09.png);
+}
 
+.gallery-d {
+	background-image: url(../../../images/photo-10.png);
+}
 
+.gallery-e {
+	background-image: url(../../../images/photo-08.png);
+}
 
+.gallery-f {
+	background-image: url(../../../images/photo-07.png);
+}
+
+.gallery-g {
+	background-image: url(../../../images/photo-11.png);
+}
+
+.gallery-h {
+	background-image: url(../../../images/photo-12.png);
+}
+
+.gallery-i {
+	background-image: url(../../../images/photo-13.png);
+}
