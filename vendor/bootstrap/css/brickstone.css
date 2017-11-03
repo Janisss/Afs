@@ -72,22 +72,23 @@ ul.my-menu{
 
 input{
 	width: 80%;
-	height: 40px;
+	height: 50px;
 	margin-bottom: 5px;
 	border-bottom-left-radius: 10px;
 	border: none;
 	font-size: 1.5rem;
 	float: left;
-	padding: 0 5px;
+	padding: 0 15px;
 	position: relative;
+	text-align: center;
 }
 .next{
 	width: 20%;
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(0, 0, 0, .1);
 	float: right;
 	text-align: center;
-	font-size: 1.5rem;
-	height: 40px;
+	font-size: 1.8rem;
+	height: 50px;
 	border: 1px solid white;
 	border-bottom-right-radius: 10px;
 	transition: all .2s ease;
@@ -100,13 +101,12 @@ input{
 }
 
 .contact-us{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	text-transform: uppercase;
 	text-align: center;
 	width: 100%;
 	display: block;
-	background: rgba(0, 0, 0, 1);
-	border: 1px solid white;
+	border: 1px solid #8B8B8B;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 10px 0;
