@@ -273,3 +273,48 @@ span.preis{
 .gallery-i {
 	background-image: url(../../../images/photo-13.png);
 }
+.profile{
+	min-height: 400px;
+}
+
+.profile i{
+	font-size: 2.3rem;
+	padding:10px;
+	color: gray;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+
+.profile i:hover{
+	color: white;
+}
+
+.icons{
+	display: block;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.profile h4{
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.profile p{
+	max-width: 600px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.profile img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	background: #222;
+}
