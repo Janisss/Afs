@@ -98,7 +98,7 @@ input{
 	text-align: center;
 	font-size: 2rem;
 	height: 50px;
-	border: 1px solid white;
+	border: 1px solid #8B8B8B;
 	border-bottom-right-radius: 10px;
 	transition: all .2s ease;
 	cursor: pointer;
@@ -116,6 +116,7 @@ input{
 	width: 100%;
 	display: block;
 	border: 1px solid #8B8B8B;
+	border-bottom: transparent;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 10px 0;
@@ -306,11 +307,13 @@ span.preis{
 	margin: auto;
 	width: 100%;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .profile h4{
 	text-transform: uppercase;
 	padding-top: 10px;
+	margin:0;
 }
 
 .profile p{
@@ -318,7 +321,7 @@ span.preis{
 	display: block;
 	margin: auto;
 	text-align: center;
-	padding-top: 55px;
+	padding-bottom: 10px;
 }
 
 .profile img{
